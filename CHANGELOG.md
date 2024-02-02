@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/1024pix/randomix/compare/v1.1.1...v1.1.2) (2024-02-02)
+
+### :bug: Correction
+
+- [#6](https://github.com/1024pix/randomix/pull/6) Réparer le générateur firstname et lastname
+
 ## [1.1.1](https://github.com/1024pix/randomix/compare/v1.1.0...v1.1.1) (2024-02-02)
 
 ### :arrow_up: Montée de version
