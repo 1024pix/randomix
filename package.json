@@ -1,9 +1,9 @@
 {
   "name": "@1024pix/randomix",
   "version": "1.0.0",
-  "description": "",
+  "description": "Random data generator for Pix challenges",
   "type": "module",
-  "main": "index.js",
+  "module": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/1024pix/randomix.git"
   },
-  "author": "",
+  "author": "https://github.com/orgs/1024pix/people",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/1024pix/randomix/issues"

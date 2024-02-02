@@ -3,19 +3,23 @@
 ## Configuration 
 
 ```javascript
+import * as generators from '@1024pix/randomix/generators';
 import * as data from '@1024pix/randomix/data';
 import { Randomix } from '@1024pix/randomix';
 
-Randomix.setData(data);
+export const randomix = new Randomix({
+  generators,
+  data,
+});
 ```
 
 ## Usage
 
 ```javascript
-import { Randomix } from '@1024pix/randomix'; 
+import { randomix } from './randomix'; 
 
-const randomix = new Randomix({ seed: 42 });
+const generator = randomix.getGenerator({ locale: 'fr', seed: 42 });
 
-const integer = randomix.getInteger(10);
-const person = randomix.getPerson();
+const integer = generator.integer(10);
+const person = generator.person();
 ```
