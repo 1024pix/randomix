@@ -15,7 +15,7 @@ describe('Person Generator', () => {
         "civility": "Madame"
       }
     ]
-    const firstnames = [
+    const firstname = [
       {
         "value": "Nicolas",
         "gender": [
@@ -29,7 +29,7 @@ describe('Person Generator', () => {
         ]
       }
     ]
-    const lastnames = [
+    const lastname = [
       {
         "value": "Foo"
       },
@@ -40,7 +40,7 @@ describe('Person Generator', () => {
         "value": "Baz"
       }
     ]
-    const getPerson = makeGetPerson({random: () => 1, data: { gender, lastnames, firstnames }})
+    const getPerson = makeGetPerson({random: () => 1, data: { gender, lastname, firstname }})
 
     const result = getPerson()
 

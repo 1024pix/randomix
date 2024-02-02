@@ -15,7 +15,7 @@ describe('Firstname Generator', () => {
         "civility": "Madame"
       }
     ]
-    const firstnames = [
+    const firstname = [
       {
         "value": "Nicolas",
         "gender": [
@@ -30,7 +30,7 @@ describe('Firstname Generator', () => {
       }
     ]
     // 1 % 3 = 1
-    const getFirstname = makeGetFirstname({ random: () => 1, data: { gender, firstnames }})
+    const getFirstname = makeGetFirstname({ random: () => 1, data: { gender, firstname }})
 
     const result = getFirstname({ gender: 'M' })
 
