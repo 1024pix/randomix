@@ -4,7 +4,20 @@
   "description": "Random data generator for Pix challenges",
   "type": "module",
   "module": "index.js",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    },
+    "./data": {
+      "import": "./dist/data.js"
+    },
+    "./generators": {
+      "import": "./dist/generators.js"
+    }
+  },
   "scripts": {
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/1024pix/randomix/issues"
   },
-  "homepage": "https://github.com/1024pix/randomix#readme"
+  "homepage": "https://github.com/1024pix/randomix#readme",
+  "devDependencies": {
+    "vite": "^5.0.12"
+  }
 }
