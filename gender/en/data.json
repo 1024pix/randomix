@@ -1,0 +1,12 @@
+[
+  {
+    "value": "M",
+    "shortCivility": "Mr",
+    "civility": "Mister"
+  },
+  {
+    "value": "F",
+    "shortCivility": "Ms",
+    "civility": "Mizz"
+  }
+]

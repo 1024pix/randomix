@@ -1,0 +1,27 @@
+[
+  {
+    "value": "Nicolas",
+    "gender": [
+      "M"
+    ]
+  },
+  {
+    "value": "Laura",
+    "gender": [
+      "F"
+    ]
+  },
+  {
+    "value": "Lucas",
+    "gender": [
+      "M"
+    ]
+  },
+  {
+    "value": "Camille",
+    "gender": [
+      "M",
+      "F"
+    ]
+  }
+]
