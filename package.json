@@ -4,7 +4,9 @@
   "description": "Random data generator for Pix challenges",
   "type": "module",
   "module": "index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.js"
@@ -32,6 +34,7 @@
   },
   "homepage": "https://github.com/1024pix/randomix#readme",
   "devDependencies": {
-    "vite": "^5.0.12"
+    "vite": "^5.0.12",
+    "vitest": "^1.2.2"
   }
 }
