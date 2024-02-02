@@ -3,7 +3,7 @@ import {makeGetLastname} from './lastname'
 
 describe('Lastname Generator', () => {
   it('should return lastname', () => {
-    const lastnames = [
+    const lastname = [
       {
         "value": "Foo"
       },
@@ -14,7 +14,7 @@ describe('Lastname Generator', () => {
         "value": "Baz"
       }
     ]
-    const getLastname = makeGetLastname({random: () => 1, data: {lastnames}})
+    const getLastname = makeGetLastname({random: () => 1, data: {lastname}})
 
     const result = getLastname()
 
