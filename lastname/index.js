@@ -1,11 +1,11 @@
 import { getLocaleFromParams } from '../../js/i18n/utils';
 import { getInteger } from '../integer';
 
-export async function getLastname() {
+export async function getLastname({ random }) {
   const locale = getLocaleFromParams();
 
   const res = await import(`./${locale}/data.json`);
   const data = res.default;
 
-  return data[getInteger(data.length)].value;
+  return data[getInteger({ random, max: data.length })].value;
 }

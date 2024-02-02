@@ -1,15 +1,10 @@
-import { getLocaleFromParams } from '../../js/i18n/utils';
 import { getInteger } from '../integer';
+import * as data from './fr/data.json' assert { type: 'json' };
 
-export async function getFirstname({ gender } = {}) {
-  const locale = getLocaleFromParams();
-
-  const res = await import(`./${locale}/data.json`);
-  let data = res.default;
-
+export async function getFirstname({ random, gender }) {
   if (gender) {
     data = data.filter((firstname) => firstname.gender.includes(gender));
   }
 
-  return data[getInteger(data.length)].value;
+  return data[getInteger({ random, max: data.length })].value;
 }

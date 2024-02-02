@@ -1,15 +1,12 @@
-
 import { getGender } from './gender';
 import { getLastname } from './lastname';
 import { getFirstname } from './firstname';
 
-export async function getPerson() {
-  const gender = await getGender();
+export function getPerson({ random }) {
+  const gender = getGender({ random });
 
-  const [firstname, lastname] = await Promise.all([
-    getFirstname({ gender: gender.value }),
-    getLastname()
-  ]);
+  const firstname = getFirstname({ random, gender });
+  const lastname = getLastname({ random });
 
   return new Person({
     gender,
