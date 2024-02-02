@@ -1,6 +1,15 @@
 # Randomix
 
-## Usage 
+## Configuration 
+
+```javascript
+import * as data from '@1024pix/randomix/data';
+import { Randomix } from '@1024pix/randomix';
+
+Randomix.setData(data);
+```
+
+## Usage
 
 ```javascript
 import { Randomix } from '@1024pix/randomix'; 

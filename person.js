@@ -2,11 +2,11 @@ import { getGender } from './gender';
 import { getLastname } from './lastname';
 import { getFirstname } from './firstname';
 
-export function getPerson({ random }) {
+export function getPerson({ random, data }) {
   const gender = getGender({ random });
 
-  const firstname = getFirstname({ random, gender });
-  const lastname = getLastname({ random });
+  const firstname = getFirstname({ random, data, gender });
+  const lastname = getLastname({ random, data });
 
   return new Person({
     gender,
