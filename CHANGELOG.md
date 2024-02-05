@@ -1,3 +1,9 @@
+## [1.1.3](https://github.com/1024pix/randomix/compare/v1.1.2...v1.1.3) (2024-02-05)
+
+### :building_construction: Tech
+
+- [#7](https://github.com/1024pix/randomix/pull/7) Ajouter un fichier de configuration pour TypeScript
+
 ## [1.1.2](https://github.com/1024pix/randomix/compare/v1.1.1...v1.1.2) (2024-02-02)
 
 ### :bug: Correction
