@@ -1,0 +1,11 @@
+{
+  "exclude": [
+    "*.js"
+  ],
+  "compilerOptions": {
+    "target": "es2022",
+    "isolatedModules": true,
+    "moduleResolution": "Bundler",
+    "resolveJsonModule": true
+  }
+}
