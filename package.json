@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Random data generator for Pix challenges",
   "type": "module",
-  "module": "index.js",
+  "module": "./dist/index.js",
   "files": [
     "dist"
   ],
