@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/1024pix/randomix/compare/v1.1.3...v1.1.4) (2024-02-12)
+
+### :arrow_up: Montée de version
+
+-  Lock file maintenance (dossier racine)
+- [#8](https://github.com/1024pix/randomix/pull/8) Lock file maintenance (dossier racine)
+
 ## [1.1.3](https://github.com/1024pix/randomix/compare/v1.1.2...v1.1.3) (2024-02-05)
 
 ### :building_construction: Tech

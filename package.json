@@ -1,6 +1,6 @@
 {
   "name": "@1024pix/randomix",
-  "version": "1.0.0",
+  "version": "1.1.4",
   "description": "Random data generator for Pix challenges",
   "type": "module",
   "module": "./dist/index.js",
