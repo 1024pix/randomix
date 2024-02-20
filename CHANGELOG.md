@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/1024pix/randomix/compare/v1.1.4...v1.1.5) (2024-02-20)
+
+### :arrow_up: Montée de version
+
+-  Update dependency node to v20.11.1
+- [#9](https://github.com/1024pix/randomix/pull/9) Update dependency node to v20.11.1
+
 ## [1.1.4](https://github.com/1024pix/randomix/compare/v1.1.3...v1.1.4) (2024-02-12)
 
 ### :arrow_up: Montée de version
